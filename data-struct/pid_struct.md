@@ -1,4 +1,4 @@
-
+### 是内核对PID的内部
 ```
 struct pid
 {
@@ -30,3 +30,25 @@ struct pid
     struct upid numbers[1];
 };
 ```
+### upid表示特定的命名空间中可见的信息
+```
+/*
+struct upid is used to get the id of the struct pid, as it is seen in particular namespace. 
+Later the struct pid is found with find_pid_ns() using the int nr and struct pid_namespace *ns.
+*/
+struct upid {
+    /* Try to keep pid_chain in the same cacheline as nr for find_vpid */
+
+    //1. 表示ID的数值
+    int nr;
+
+    //2. 指向该ID所属的命名空间的指针
+    struct pid_namespace *ns;
+
+    /*
+    3. 所有的upid实例都保存在一个散列表中，pid_chain用内核的标准方法实现了散列溢出链表
+    */
+    struct hlist_node pid_chain;
+};
+```
+
