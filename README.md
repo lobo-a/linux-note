@@ -14,7 +14,7 @@ namespaces、cgroup，rootfs
 
 page
 
-文件系统 https://www.eet-china.com/mp/a38145.html
+文件系统 https://www.eet-china.com/mp/a38145.html 和 https://blog.csdn.net/jasonchen_gbd/article/details/51511261
 
 物理地址、虚拟地址
 
