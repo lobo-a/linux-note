@@ -16,6 +16,8 @@ page
 
 文件系统 https://www.eet-china.com/mp/a38145.html 和 https://blog.csdn.net/jasonchen_gbd/article/details/51511261
 
+linux启动文件系统初始化： https://blog.csdn.net/jinking01/article/details/105089485
+
 物理地址、虚拟地址
 
 常用的内存管理模式如golang、php
