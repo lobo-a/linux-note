@@ -16,6 +16,8 @@ page
 
 文件系统 https://www.eet-china.com/mp/a38145.html 和 https://blog.csdn.net/jasonchen_gbd/article/details/51511261
 
+文件系统之io多路复用：https://journey-c.github.io/io-multiplexing/
+
 linux启动文件系统初始化： https://blog.csdn.net/jinking01/article/details/105089485
 
 物理地址、虚拟地址
