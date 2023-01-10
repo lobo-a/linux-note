@@ -6,7 +6,7 @@ namespaces、cgroup，rootfs
 
 线程创建：https://heapdump.cn/article/4683828
 
-内核任务调度：https://heapdump.cn/article/4945932 
+内核任务调度：https://heapdump.cn/article/4945932 和 https://baijiahao.baidu.com/s?id=1722358005175527990&wfr=spider&for=pc
 
 程序启动运行过程： https://heapdump.cn/article/5055457
 
